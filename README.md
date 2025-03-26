@@ -47,6 +47,7 @@ Sur Windows :
 Sur Mac/Linux :
 `python3 mon_script.py`
 
+
 Le serveur sera lancé sur http://127.0.0.1:5000 par défaut ( vous pouvez ouvrir l'application sur le naviguateur de votre choix ). Une autre ligne sera visible dans la console pour indiquer l'adresse exacte sur laquelle les appareils connectés au même réseau pourront avoir accès.
 Cette ligne commence comme ça : "Application accessible sur : "
 
