@@ -1,10 +1,10 @@
 # Projet DWS - Scraping et Affichage de Produits
 
-## Description
+## 📍 Le Principe ?
 
 Ce projet permet de récupérer des données produits à partir d'un fichier CSV et de les afficher sur une page web. Le backend est développé avec **Flask** et le frontend permet d'afficher les produits sous forme de cartes avec pagination. Il inclut aussi un système de recherche par nom de produit. L'application sert à manipuler des données de produits, les afficher dynamiquement, et inclure des fonctionnalités telles que la recherche et la pagination.
 
-## Fonctionnalités
+## 👉 Sur l'appli vous pouvez -->
 
 - **Pagination** : Affichage des produits avec pagination pour éviter de charger toutes les données d'un coup.
 - **Recherche** : Système de recherche permettant de filtrer les produits par nom.
