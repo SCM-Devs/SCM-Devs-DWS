@@ -40,6 +40,7 @@ Sur Mac/Linux :
 
 ### Lancer l'application
 Une fois les dépendances installées, vous pouvez lancer le serveur Flask avec la commande suivante : 
+
 Sur Windows :
 `python run.py`
 
