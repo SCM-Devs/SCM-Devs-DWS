@@ -16,7 +16,7 @@ L'application a pour objectif de manipuler et afficher dynamiquement des donnée
 - **Pagination** : Affichage des produits avec pagination pour éviter de charger toutes les données d'un coup.
 - **Scrapper** : Lancer le scraping depuis l'appplication.
 
-## 🔧 Instalation
+## 🔧 Installation
 
 Avant de commencer, vous devez vous assurer que **Python** est installé sur votre machine.
 
@@ -47,13 +47,13 @@ Sur Windows :
 Sur Mac/Linux :
 `python3 mon_script.py`
 
-Le serveur sera lancé sur http://127.0.0.1:5000 par défaut ( vous pouvez ouvrir l'application sur le naviguateur de votre choix ). Une autre ligne sera visible dans la console pour indiquer l'adresse exacte sur laquelle les appareils connectés au même réseau pourront avoir accès.
+Le serveur sera lancé sur http://127.0.0.1:5000 par défaut ( vous pouvez ouvrir l'application sur le navigateur de votre choix ). Une autre ligne sera visible dans la console pour indiquer l'adresse exacte sur laquelle les appareils connectés au même réseau pourront avoir accès.
 Cette ligne commence comme ça : "Application accessible sur : "
 
 ### Une fois sur l'application
 Avant de lancer l’application, vous devez impérativement exécuter un premier scraping pour créer le fichier CSV contenant les produits.
 
-Le script de scraping prend environ 10 minutes pour s’exécuter. Nous recommandons de le lancer avant le serveur Flask :
+Nous recommandons de le lancer avant le serveur Flask :
 `python extime_scraper/main.py`
 
 ## Explication Scraping
