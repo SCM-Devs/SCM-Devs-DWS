@@ -72,6 +72,9 @@ Nous avons identifié ces limitations, mais en raison des contraintes de temps, 
 Ce README vise à être transparent sur l’état actuel du projet et notre volonté de réussir. 
 
 ## 📢 Remarque finale
+Ceci est le repositiry final que nous utilisons pour livrer le projet. Mais nous avons travailler sur un repository parallèle afin de livrer une version propre. Nous vous mettons tout de même le lien du repository de travaille pour témoigner de nos effort au cours des trois dernière semaine. 
+👉 https://github.com/SCM-Devs/SCMDev_Coda_DWS
+
 Ce projet a été réalisé dans un cadre scolaire et noté. Malgré les imperfections, il démontre notre capacité à concevoir un bot de scraping, à exploiter les données récupérées et à les présenter sous forme d’application web.
 
 Merci de votre compréhension et bonne utilisation ! 🚀
