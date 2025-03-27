@@ -2,17 +2,17 @@
 
 ## 📍 Le Principe ?
 
-Ce projet permet de récupérer des données produits à partir d'un fichier CSV et de les afficher sur une page web. Le backend est développé avec **Flask** et le frontend permet d'afficher les produits sous forme de cartes avec pagination. Il inclut aussi un système de recherche par nom de produit. L'application sert à manipuler des données de produits, les afficher dynamiquement, et inclure des fonctionnalités telles que la recherche et la pagination.
+Ce projet permet de récupérer des données produits à partir du site Extime.com, de les sauvegarder dans un fichier CSV, et de les afficher sur une page web.
 
-L'application gère les produits et leurs attributs afin d'offrir une expérience utilisateur agréable. Nous avons fait de notre mieux pour nous mettre à la place de l'utilisateur et optimiser son experience.
+Le backend est développé avec Flask, et le frontend permet d'afficher les produits sous forme de cartes avec pagination. Il inclut également un système de recherche par nom de produit.
+
+L'application a pour objectif de manipuler et afficher dynamiquement des données de produits, en offrant des fonctionnalités essentielles telles que la recherche, la modification et la pagination. Nous avons porté une attention particulière à l'expérience utilisateur en optimisant l'affichage et la navigation.
 
 ## 👉 Sur l'appli vous pouvez -->
 
 - **Recherche** : Système de recherche permettant de chercher les produits par nom.
-- **Filtrer** : Filtrer la recherche par grandes catégories.
 - **Vue détaillée des produits** : En cliquant sur un produit, une page détaillée s'affiche avec plus d'informations.
 - **Modifier** : Modifier le produit depuis ça fiche produits. Et **Sauvegarder** pour enregistrer les modification.
-- **Navigation** : Naviguation améliorer sur les fiches produits, pour faciliter la modification.
 - **Pagination** : Affichage des produits avec pagination pour éviter de charger toutes les données d'un coup.
 - **Scrapper** : Lancer le scraping depuis l'appplication.
 
@@ -51,9 +51,27 @@ Le serveur sera lancé sur http://127.0.0.1:5000 par défaut ( vous pouvez ouvri
 Cette ligne commence comme ça : "Application accessible sur : "
 
 ### Une fois sur l'application
-Vous devez impérativement lancer un premier scrap. Afin de créer un premier csv.
+Avant de lancer l’application, vous devez impérativement exécuter un premier scraping pour créer le fichier CSV contenant les produits.
 
-PS: le script de scraping dure une dizaine de minutes, il est donc préférable de le lancer avant de lancer le serveur Flask, voici la ligne a tapé:
-`python scrappy.py`
+Le script de scraping prend environ 10 minutes pour s’exécuter. Nous recommandons de le lancer avant le serveur Flask :
+`python extime_scraper/main.py`
 
 ## Explication Scraping
+
+Lorsque vous lancez le scraping, le programme recherche sur le site toutes les informations nécessaires et extrait les données des produits dans chaque page des catégories sélectionnées.
+
+Pour chaque produit, il :
+✅ Télécharge l’image et la convertit en WebP (si elle n’existe pas déjà).
+✅ Vérifie et élimine les doublons, en ne conservant que l’essentiel.
+✅ Génère un fichier CSV contenant toutes les informations.
+
+⏳ Durée d’exécution : environ 30 minutes sur Windows, légèrement plus rapide sur Mac.
+
+Malgré nos efforts, notre bot de scraping ne récupère pas toutes les données correctement. Certains produits peuvent être absents, et certaines informations peuvent être incomplètes ou erronées.
+Nous avons identifié ces limitations, mais en raison des contraintes de temps, nous n'avons pas pu les corriger entièrement avant la remise du projet.
+Ce README vise à être transparent sur l’état actuel du projet et notre volonté de réussir. 
+
+## 📢 Remarque finale
+Ce projet a été réalisé dans un cadre scolaire et noté. Malgré les imperfections, il démontre notre capacité à concevoir un bot de scraping, à exploiter les données récupérées et à les présenter sous forme d’application web.
+
+Merci de votre compréhension et bonne utilisation ! 🚀
