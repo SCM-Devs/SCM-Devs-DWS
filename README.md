@@ -61,9 +61,9 @@ Le script de scraping prend environ 10 minutes pour s’exécuter. Nous recomman
 Lorsque vous lancez le scraping, le programme recherche sur le site toutes les informations nécessaires et extrait les données des produits dans chaque page des catégories sélectionnées.
 
 Pour chaque produit, il :
-✅ Télécharge l’image et la convertit en WebP (si elle n’existe pas déjà).
-✅ Vérifie et élimine les doublons, en ne conservant que l’essentiel.
-✅ Génère un fichier CSV contenant toutes les informations.
+- ✅ Télécharge l’image et la convertit en WebP (si elle n’existe pas déjà).
+- ✅ Vérifie et élimine les doublons, en ne conservant que l’essentiel.
+- ✅ Génère un fichier CSV contenant toutes les informations.
 
 ⏳ Durée d’exécution : environ 30 minutes sur Windows, légèrement plus rapide sur Mac.
 
