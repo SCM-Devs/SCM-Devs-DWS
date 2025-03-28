@@ -57,7 +57,7 @@ Avant de lancer l’application, vous devez impérativement exécuter un premier
 Nous recommandons de le lancer avant le serveur Flask :
 `python extime_scraper/main.py`
 
-## 🧠 **Notre Réflexion**
+## 🧠 Notre Réflexion
 
 ### **Recherche par EAN**
 Pour ce projet, une recherche par EAN en complément de la recherche par nom aurait été intéressante. Cependant, nous avons rapidement constaté que cette fonctionnalité posait des défis. En effet, il aurait fallu disposer de tous les codes EAN des produits scrapés pour les comparer au CSV. Pour y parvenir, plusieurs options s'offraient à nous :
@@ -106,7 +106,7 @@ Inconvénient : Encore en développement, certaines catégories manquantes
 Spécialisée dans les livres avec une base de données complète
 Inconvénient : Version avancée payante
 
-## Explication Scraping
+## 📑Explication Scraping
 
 Lorsque vous lancez le scraping, le programme recherche sur le site toutes les informations nécessaires et extrait les données des produits dans chaque page des catégories sélectionnées.
 
