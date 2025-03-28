@@ -63,13 +63,14 @@ Lorsque vous lancez le scraping, le programme recherche sur le site toutes les i
 Pour chaque produit, il :
 - ✅ Télécharge l’image et la convertit en WebP (si elle n’existe pas déjà).
 - ✅ Vérifie et élimine les doublons, en ne conservant que l’essentiel.
-- ✅ Génère un fichier CSV contenant toutes les informations.
+- ✅ Génère un fichier CSV contenant toutes les informations dans le dossier app/output.  
 
 ⏳ Durée d’exécution : environ 30 minutes sur Windows, légèrement plus rapide sur Mac.
 
 Malgré nos efforts, notre bot de scraping ne récupère pas toutes les données correctement. Certains produits peuvent être absents, et certaines informations peuvent être incomplètes ou erronées.
 Nous avons identifié ces limitations, mais en raison des contraintes de temps, nous n'avons pas pu les corriger entièrement avant la remise du projet.
 Ce README vise à être transparent sur l’état actuel du projet et notre volonté de réussir. 
+
 
 ## 📢 Remarque finale
 Ceci est le repositiry final que nous utilisons pour livrer le projet. Mais nous avons travailler sur un repository parallèle afin de livrer une version propre. Nous vous mettons tout de même le lien du repository de travaille pour témoigner de nos effort au cours des trois dernière semaine. 
